@@ -1,0 +1,11 @@
+Q={q0,q1,q2,q3,q4}
+S={a,b}
+q0=q0
+F={q4}
+transition table: 
+      a	      b
+q0	{q1,q2}	{q4}
+q1	{q0}	   O
+q2	{q3}	   O
+q3	 O	    {q0}
+q4	 O	      O
